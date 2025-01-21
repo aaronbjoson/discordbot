@@ -1,50 +1,50 @@
 # discordbot
 Learning how to create my own discord bot.
 
-##Basic Commands
+## Basic Commands
 
 ___
 
-####Welcome
+#### Welcome
 - Sends a public welcome message to new members in the server.
 
-####Say
+#### Say
 - Make the bot to send a message to your current channel or to a different channel.
 
-####Emotes
+#### Emotes
 - Express your emotion.
 - Currently able to choose between hug, laugh, and cry.
 
-####Roles
+#### Roles
 - Returns the list of existing roles within a discord server.
 
-####AddRole
+#### AddRole
 - Allows a user to grant an existing role to themselves or others.
 
 
 
-##Music Commands
-
+## Music Commands
+ 
 ___
 
-####Play
+#### Play
 - Lets people play music on a voice channel in the server.
 - Currently uses youtube as a source to play the music.
 
-####NowPlaying
+#### NowPlaying
 - Displays information about the song that is currently playing.
 
-####Queue
+#### Queue
 - Display the current queue of songs to be played and the order that they were placed.
 
-####Stop
+#### Stop
 - Stops any music from playing and clears all the songs queued up by users.
 
-####Skip
+#### Skip
 - skip to the next song in queue.
 
 
-##Functionalities to be added.
+## Functionalities to be added.
 
 ___
 
