@@ -1,0 +1,83 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.disdaccbot</groupId>
+  <artifactId>disdaccbot</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>disdaccbot</name>
+  
+  <properties>
+		<maven.compiler.source>17</maven.compiler.source>
+		<maven.compiler.target>17</maven.compiler.target>
+  </properties>
+  
+  
+  <repositories>
+	    <repository>
+	        <id>jitpack</id>
+	        <url>https://jitpack.io</url>
+	    </repository>
+	    
+	    <repository>
+		    <id>dv8tion</id>
+		    <name>m2-dv8tion</name>
+		    <url>https://m2.dv8tion.net/releases</url>
+		</repository>
+		
+		<repository>
+  			<id>arbjergDev-releases</id>
+  			<name>Lavalink Repository</name>
+  			<url>https://maven.lavalink.dev/releases</url>
+		</repository>
+	</repositories>
+
+
+  <dependencies>
+  
+	<dependency>
+	    <groupId>net.dv8tion</groupId>
+	    <artifactId>JDA</artifactId>
+	    <version>5.0.0</version> 
+	</dependency>	
+	<dependency>
+		<groupId>io.github.cdimascio</groupId>
+	    <artifactId>dotenv-java</artifactId>
+	    <version>3.1.0</version>
+	</dependency>
+	<dependency>
+	    <groupId>com.zaxxer</groupId>
+	    <artifactId>HikariCP</artifactId>
+	    <version>6.2.1</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.xerial</groupId>
+	    <artifactId>sqlite-jdbc</artifactId>
+	    <version>3.47.1.0</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>org.apache.derby</groupId>
+	    <artifactId>derby</artifactId>
+	    <version>10.17.1.0</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+		<groupId>dev.arbjerg</groupId>
+		<artifactId>lavaplayer</artifactId>
+		<version>2.2.2</version>
+	</dependency>
+  
+  	<dependency>
+	    <groupId>com.github.FrostedCA</groupId>
+	    <artifactId>EasyCommands</artifactId>
+	    <version>0.8.14</version>
+		</dependency>
+		
+	<dependency>
+		<groupId>dev.lavalink.youtube</groupId>
+		<artifactId>common</artifactId>
+		<version>1.11.3</version>
+	</dependency>
+
+  </dependencies>
+</project>
